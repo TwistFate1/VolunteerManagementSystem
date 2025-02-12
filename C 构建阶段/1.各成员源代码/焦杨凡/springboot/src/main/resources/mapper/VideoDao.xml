@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hwadee.springboot.dao.VideoDao">
+
+    <insert id="insertVideo" useGeneratedKeys="true" keyProperty="videoId">
+        INSERT INTO video (video_name, post_date, content, tag, state, introduction)
+        VALUES (#{videoName}, #{postDate}, #{content}, #{tag}, #{state}, #{introduction})
+    </insert>
+
+    <select id="getVideoById" resultType="com.hwadee.springboot.entity.Video">
+        SELECT video_id, video_path, video_name, post_date, content, tag, state, introduction
+        FROM video
+        WHERE video_id = #{videoId}
+    </select>
+
+    <update id="updateVideoPath">
+        UPDATE video
+        SET video_path = #{videoPath}
+        WHERE video_id = #{videoId}
+    </update>
+
+
+
+    <resultMap id="BaseResultMap" type="com.hwadee.springboot.entity.Video">
+        <result property="videoId" column="video_id"/>
+        <result property="videoPath" column="video_path"/>
+        <result property="videoName" column="video_name"/>
+        <result property="postDate" column="post_date"/>
+        <result property="content" column="content"/>
+        <result property="tag" column="tag"/>
+        <result property="state" column="state"/>
+        <result property="introduction" column="introduction"/>
+    </resultMap>
+
+    <select id="getVideoList" resultMap="BaseResultMap">
+        SELECT * FROM video
+        LIMIT #{offset}, #{limit}
+    </select>
+
+    <select id="countVideos" resultType="int">
+        SELECT COUNT(*) FROM video
+    </select>
+</mapper>

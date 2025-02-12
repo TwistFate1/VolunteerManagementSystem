@@ -1,0 +1,55 @@
+server:
+  port: 8080
+  servlet:
+   context-path: /
+  tomcat:
+    #最大线程数
+    max-threads: 1000
+    #最大连接数
+    max-connections: 20000
+    #最大全接连数(TCP)
+    accept-count: 8000
+    uri-encoding: UTF-8
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true  # 开启驼峰命名
+  mapper-locations: classpath:mapper/*.xml
+spring:
+  #数据源
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: mysql
+#    url: jdbc:mysql://localhost:3306/school_spring?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/volunteer?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+  devtools:
+    #热部署生效,默认就是true
+    restart:
+      enabled: true
+  redis:
+    host: 自己的redis地址
+    port: 6379
+    password: 自己的redis密码
+    database: 1
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1
+        max-idle: 5
+        min-idle: 1
+#logback
+logging:
+  level:
+    com.csu.springboot: debug
+#将日志输出到文件
+  config: classpath:logback-spring.xml
+thymeleaf:
+  prefix: classpath:/templates/
+  suffix: .html
+  #servlet:
+  #content-type: text/html
+  encoding: UTF-8
+  mode: LEGACYHTML5
+  # 关闭页面缓存
+  cache: false

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hwadee.springboot.dao.NewsDao">
+
+    <resultMap id="BaseResultMap" type="com.hwadee.springboot.entity.News">
+        <result property="newsId" column="news_id"/>
+        <result property="teamId" column="team_id"/>
+        <result property="newsPath" column="news_path"/>
+        <result property="newsTime" column="news_time"/>
+        <result property="headline" column="headline"/>
+        <result property="state" column="state"/>
+        <result property="title" column="title"/> <!-- 新添加的列 -->
+        <result property="content" column="content"/>
+        <result property="tag" column="tag"/>
+    </resultMap>
+
+    <select id="queryAllByLimit" resultMap="BaseResultMap">
+        SELECT
+            news_id, team_id, news_path, news_time, headline, state, title,content,tag
+        FROM
+            news
+        WHERE state = 1
+        ORDER BY
+            news_time DESC
+            LIMIT #{offset}, #{limit}
+
+    </select>
+
+    <select id="count" resultType="int">
+        SELECT
+            COUNT(*)
+        FROM
+            news
+        WHERE state = 1
+    </select>
+
+    <select id="queryAllHeadlineByLimit" resultMap="BaseResultMap">
+        SELECT * FROM news
+        WHERE state = 1 AND headline = 1
+        ORDER BY news_time DESC
+        LIMIT #{offset}, #{limit}
+    </select>
+
+    <select id="queryAllNotHeadlineByLimit" resultMap="BaseResultMap">
+        SELECT * FROM news
+        WHERE state = 1 AND headline = 0
+        ORDER BY news_time DESC
+        LIMIT #{offset}, #{limit}
+    </select>
+
+    <select id="countAllHeadline" resultType="int">
+        SELECT COUNT(*) FROM news
+        WHERE state = 1 AND headline = 1
+    </select>
+
+    <select id="countAllNotHeadline" resultType="int">
+        SELECT COUNT(*) FROM news
+        WHERE state = 1 AND headline = 0
+    </select>
+
+
+
+    <select id="getNewsAudit" resultMap="BaseResultMap">
+        SELECT * FROM news WHERE headline != 1
+    </select>
+
+    <update id="updateNewsState">
+        UPDATE news
+        SET state = #{state}
+        WHERE news_id = #{newsId}
+    </update>
+
+    <update id="updateNewsHeadline">
+        UPDATE news
+        SET headline = #{headline}
+        WHERE news_id = #{newsId}
+    </update>
+
+    <select id="getNewsHeadline" resultType="int">
+        SELECT headline FROM news WHERE news_id = #{newsId}
+    </select>
+
+
+    <insert id="insertNews" parameterType="com.hwadee.springboot.entity.News">
+        INSERT INTO news (team_id, news_path, news_time, headline, state, title, content, tag)
+        VALUES (#{news.teamId}, #{news.newsPath}, #{news.newsTime}, 0, 0, #{news.title}, #{news.content}, #{news.tag})
+    </insert>
+
+
+    <select id="getNewsById" resultMap="BaseResultMap">
+        SELECT * FROM news WHERE news_id = #{newsId}
+    </select>
+</mapper>

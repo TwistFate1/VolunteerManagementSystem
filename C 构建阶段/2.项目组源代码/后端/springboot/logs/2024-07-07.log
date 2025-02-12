@@ -1,0 +1,1890 @@
+[INFO]2024-07-07 09:06:05,734 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 35500 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 09:06:05,734 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 09:06:05,782 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 09:06:05,782 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 09:06:07,122 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 09:06:07,122 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 09:06:07,138 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 09:06:07,154 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 09:06:07,154 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 09:06:07,169 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 09:06:07,826 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 09:06:07,826 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 09:06:07,826 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 09:06:07,826 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 09:06:07,873 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 09:06:07,873 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 09:06:07,873 - Starting service [Tomcat]
+[INFO]2024-07-07 09:06:07,873 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 09:06:07,951 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 09:06:07,951 - Root WebApplicationContext: initialization completed in 2169 ms
+[INFO]2024-07-07 09:06:08,091 - HikariPool-1 - Starting...
+[WARN]2024-07-07 09:06:08,091 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 09:06:08,216 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 09:06:08,326 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 09:06:08,451 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 09:06:08,545 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 09:06:08,670 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 09:06:08,670 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 09:06:09,420 - 自定义Redis配置--
+[WARN]2024-07-07 09:06:09,483 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 09:06:09,623 - Adding welcome page template: index
+[INFO]2024-07-07 09:06:09,892 - LiveReload server is running on port 35729
+[INFO]2024-07-07 09:06:09,924 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 09:06:09,933 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 09:06:09,948 - Started SpringbootApplication in 4.756 seconds (JVM running for 8.784)
+[INFO]2024-07-07 09:07:13,223 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 09:07:13,239 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 09:07:13,239 - Completed initialization in 0 ms
+[INFO]2024-07-07 09:35:27,870 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 09:35:27,873 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 09:35:27,876 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 09:35:38,611 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 28556 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 09:35:38,613 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 09:35:38,671 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 09:35:38,671 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 09:35:39,941 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 09:35:39,942 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 09:35:39,958 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 09:35:39,969 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 09:35:39,970 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 09:35:39,982 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 09:35:40,547 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 09:35:40,549 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 09:35:40,549 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 09:35:40,549 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 09:35:40,555 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 09:35:40,562 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 09:35:40,563 - Starting service [Tomcat]
+[INFO]2024-07-07 09:35:40,563 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 09:35:40,633 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 09:35:40,633 - Root WebApplicationContext: initialization completed in 1961 ms
+[INFO]2024-07-07 09:35:40,753 - HikariPool-1 - Starting...
+[WARN]2024-07-07 09:35:40,755 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 09:35:40,858 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 09:35:40,957 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 09:35:41,070 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 09:35:41,154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 09:35:41,273 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 09:35:41,281 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 09:35:41,914 - 自定义Redis配置--
+[WARN]2024-07-07 09:35:41,970 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 09:35:42,100 - Adding welcome page template: index
+[INFO]2024-07-07 09:35:42,412 - LiveReload server is running on port 35729
+[INFO]2024-07-07 09:35:42,433 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 09:35:42,448 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 09:35:42,464 - Started SpringbootApplication in 4.264 seconds (JVM running for 5.052)
+[INFO]2024-07-07 09:36:29,055 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 09:36:29,055 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 09:36:29,056 - Completed initialization in 1 ms
+[INFO]2024-07-07 09:39:37,992 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 09:39:37,996 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 09:39:38,002 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 09:39:40,942 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 40316 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 09:39:40,943 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 09:39:41,007 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 09:39:41,007 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 09:39:41,786 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 09:39:41,786 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 09:39:41,803 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 09:39:41,813 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 09:39:41,814 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 09:39:41,822 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 09:39:42,520 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 09:39:42,520 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 09:39:42,521 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 09:39:42,521 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 09:39:42,525 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 09:39:42,530 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 09:39:42,532 - Starting service [Tomcat]
+[INFO]2024-07-07 09:39:42,532 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 09:39:42,627 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 09:39:42,627 - Root WebApplicationContext: initialization completed in 1619 ms
+[INFO]2024-07-07 09:39:42,746 - HikariPool-1 - Starting...
+[WARN]2024-07-07 09:39:42,748 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 09:39:42,842 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 09:39:42,891 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 09:39:42,985 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 09:39:43,123 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 09:39:43,219 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 09:39:43,226 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 09:39:43,723 - 自定义Redis配置--
+[WARN]2024-07-07 09:39:43,776 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 09:39:43,902 - Adding welcome page template: index
+[INFO]2024-07-07 09:39:44,155 - LiveReload server is running on port 35729
+[INFO]2024-07-07 09:39:44,173 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 09:39:44,193 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 09:39:44,209 - Started SpringbootApplication in 3.64 seconds (JVM running for 4.392)
+[INFO]2024-07-07 09:39:49,833 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 09:39:49,834 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 09:39:49,837 - Completed initialization in 3 ms
+[INFO]2024-07-07 09:56:01,960 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 09:56:01,965 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 09:56:01,972 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 09:56:09,323 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 19068 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 09:56:09,324 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 09:56:09,375 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 09:56:09,375 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 09:56:10,206 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 09:56:10,207 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 09:56:10,223 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 09:56:10,234 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 09:56:10,234 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 09:56:10,245 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 09:56:10,778 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 09:56:10,780 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 09:56:10,780 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 09:56:10,780 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 09:56:10,788 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 09:56:10,794 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 09:56:10,795 - Starting service [Tomcat]
+[INFO]2024-07-07 09:56:10,795 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 09:56:10,879 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 09:56:10,880 - Root WebApplicationContext: initialization completed in 1504 ms
+[INFO]2024-07-07 09:56:11,005 - HikariPool-1 - Starting...
+[WARN]2024-07-07 09:56:11,007 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 09:56:11,108 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 09:56:11,205 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 09:56:11,315 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 09:56:11,416 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 09:56:11,547 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 09:56:11,557 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 09:56:12,130 - 自定义Redis配置--
+[WARN]2024-07-07 09:56:12,172 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 09:56:12,308 - Adding welcome page template: index
+[INFO]2024-07-07 09:56:12,588 - LiveReload server is running on port 35729
+[INFO]2024-07-07 09:56:12,610 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 09:56:12,635 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 09:56:12,651 - Started SpringbootApplication in 3.804 seconds (JVM running for 4.445)
+[INFO]2024-07-07 09:56:16,968 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 09:56:16,968 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 09:56:16,970 - Completed initialization in 2 ms
+[INFO]2024-07-07 10:03:47,019 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:03:47,021 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 10:03:47,027 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 10:03:52,780 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 5884 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 10:03:52,782 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 10:03:52,826 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 10:03:52,826 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 10:03:53,474 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:03:53,475 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 10:03:53,497 - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 10:03:53,510 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:03:53,512 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 10:03:53,524 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 10:03:54,070 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 10:03:54,071 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 10:03:54,071 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 10:03:54,071 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 10:03:54,079 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 10:03:54,087 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:03:54,089 - Starting service [Tomcat]
+[INFO]2024-07-07 10:03:54,089 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 10:03:54,154 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 10:03:54,155 - Root WebApplicationContext: initialization completed in 1328 ms
+[INFO]2024-07-07 10:03:54,261 - HikariPool-1 - Starting...
+[WARN]2024-07-07 10:03:54,263 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 10:03:54,344 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 10:03:54,406 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 10:03:54,496 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 10:03:54,578 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 10:03:54,668 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 10:03:54,681 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:03:55,189 - 自定义Redis配置--
+[WARN]2024-07-07 10:03:55,232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 10:03:55,357 - Adding welcome page template: index
+[INFO]2024-07-07 10:03:55,609 - LiveReload server is running on port 35729
+[INFO]2024-07-07 10:03:55,629 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:03:55,645 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 10:03:55,661 - Started SpringbootApplication in 3.202 seconds (JVM running for 3.816)
+[INFO]2024-07-07 10:05:13,347 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 10:05:13,348 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 10:05:13,350 - Completed initialization in 2 ms
+[INFO]2024-07-07 10:05:44,635 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:05:44,637 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 10:05:44,643 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 10:05:49,813 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 40388 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 10:05:49,814 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 10:05:49,859 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 10:05:49,860 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 10:05:50,474 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:05:50,474 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 10:05:50,488 - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 10:05:50,497 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:05:50,498 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 10:05:50,506 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 10:05:50,973 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 10:05:50,974 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 10:05:50,974 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 10:05:50,975 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 10:05:50,980 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 10:05:50,985 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:05:50,986 - Starting service [Tomcat]
+[INFO]2024-07-07 10:05:50,986 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 10:05:51,045 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 10:05:51,045 - Root WebApplicationContext: initialization completed in 1185 ms
+[INFO]2024-07-07 10:05:51,157 - HikariPool-1 - Starting...
+[WARN]2024-07-07 10:05:51,158 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 10:05:51,245 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 10:05:51,312 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 10:05:51,403 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 10:05:51,480 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 10:05:51,563 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 10:05:51,570 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:05:52,044 - 自定义Redis配置--
+[WARN]2024-07-07 10:05:52,091 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 10:05:52,205 - Adding welcome page template: index
+[INFO]2024-07-07 10:05:52,447 - LiveReload server is running on port 35729
+[INFO]2024-07-07 10:05:52,467 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:05:52,481 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 10:05:52,496 - Started SpringbootApplication in 3.02 seconds (JVM running for 3.613)
+[INFO]2024-07-07 10:05:56,024 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 10:05:56,025 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 10:05:56,026 - Completed initialization in 1 ms
+[INFO]2024-07-07 10:09:31,179 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:09:31,182 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 10:09:31,188 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 10:09:38,378 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 12204 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 10:09:38,379 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 10:09:38,439 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 10:09:38,440 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 10:09:39,144 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:09:39,144 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 10:09:39,162 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 10:09:39,173 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:09:39,174 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 10:09:39,185 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 10:09:39,726 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 10:09:39,727 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 10:09:39,727 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 10:09:39,728 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 10:09:39,733 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 10:09:39,738 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:09:39,739 - Starting service [Tomcat]
+[INFO]2024-07-07 10:09:39,739 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 10:09:39,807 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 10:09:39,807 - Root WebApplicationContext: initialization completed in 1365 ms
+[INFO]2024-07-07 10:09:39,942 - HikariPool-1 - Starting...
+[WARN]2024-07-07 10:09:39,947 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 10:09:40,091 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 10:09:40,152 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 10:09:40,280 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 10:09:40,371 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 10:09:40,466 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 10:09:40,475 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:09:41,016 - 自定义Redis配置--
+[WARN]2024-07-07 10:09:41,064 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 10:09:41,188 - Adding welcome page template: index
+[INFO]2024-07-07 10:09:41,567 - LiveReload server is running on port 35729
+[INFO]2024-07-07 10:09:41,595 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:09:41,624 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 10:09:41,644 - Started SpringbootApplication in 3.71 seconds (JVM running for 4.489)
+[INFO]2024-07-07 10:10:40,972 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 10:10:40,973 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 10:10:40,976 - Completed initialization in 3 ms
+[INFO]2024-07-07 10:23:18,049 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:23:18,051 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 10:23:18,056 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 10:23:25,307 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 47496 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 10:23:25,308 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 10:23:25,356 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 10:23:25,356 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 10:23:26,009 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:23:26,009 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 10:23:26,023 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 10:23:26,033 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:23:26,034 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 10:23:26,043 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 10:23:26,569 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 10:23:26,570 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 10:23:26,570 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 10:23:26,570 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 10:23:26,575 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 10:23:26,579 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:23:26,580 - Starting service [Tomcat]
+[INFO]2024-07-07 10:23:26,580 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 10:23:26,648 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 10:23:26,648 - Root WebApplicationContext: initialization completed in 1291 ms
+[INFO]2024-07-07 10:23:26,788 - HikariPool-1 - Starting...
+[WARN]2024-07-07 10:23:26,789 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 10:23:26,910 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 10:23:26,984 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 10:23:27,073 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 10:23:27,146 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 10:23:27,240 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 10:23:27,248 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:23:27,750 - 自定义Redis配置--
+[WARN]2024-07-07 10:23:27,796 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 10:23:27,923 - Adding welcome page template: index
+[INFO]2024-07-07 10:23:28,185 - LiveReload server is running on port 35729
+[INFO]2024-07-07 10:23:28,203 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:23:28,221 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 10:23:28,238 - Started SpringbootApplication in 3.266 seconds (JVM running for 3.904)
+[INFO]2024-07-07 10:24:17,499 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 10:24:17,500 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 10:24:17,501 - Completed initialization in 1 ms
+[INFO]2024-07-07 10:52:38,318 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:52:38,323 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 10:52:38,331 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 10:52:46,128 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 12184 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 10:52:46,129 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 10:52:46,178 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 10:52:46,178 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 10:52:47,036 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:52:47,037 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 10:52:47,054 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 10:52:47,066 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:52:47,067 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 10:52:47,077 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 10:52:47,686 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 10:52:47,687 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 10:52:47,688 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 10:52:47,688 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 10:52:47,694 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 10:52:47,721 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:52:47,722 - Starting service [Tomcat]
+[INFO]2024-07-07 10:52:47,723 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 10:52:47,793 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 10:52:47,793 - Root WebApplicationContext: initialization completed in 1614 ms
+[INFO]2024-07-07 10:52:47,914 - HikariPool-1 - Starting...
+[WARN]2024-07-07 10:52:47,917 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 10:52:48,053 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 10:52:48,174 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 10:52:48,279 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 10:52:48,368 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 10:52:48,492 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 10:52:48,500 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:52:49,045 - 自定义Redis配置--
+[WARN]2024-07-07 10:52:49,092 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 10:52:49,235 - Adding welcome page template: index
+[INFO]2024-07-07 10:52:49,514 - LiveReload server is running on port 35729
+[INFO]2024-07-07 10:52:49,540 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:52:49,557 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 10:52:49,573 - Started SpringbootApplication in 3.829 seconds (JVM running for 4.807)
+[INFO]2024-07-07 10:53:36,378 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 10:53:36,378 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 10:53:36,380 - Completed initialization in 2 ms
+[INFO]2024-07-07 10:57:51,938 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:57:51,940 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 10:57:51,947 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 10:57:57,209 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 50456 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 10:57:57,211 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 10:57:57,259 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 10:57:57,260 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 10:57:57,887 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:57:57,887 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 10:57:57,904 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 10:57:57,915 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 10:57:57,915 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 10:57:57,924 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 10:57:58,456 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 10:57:58,456 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 10:57:58,456 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 10:57:58,457 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 10:57:58,462 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 10:57:58,468 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:57:58,469 - Starting service [Tomcat]
+[INFO]2024-07-07 10:57:58,469 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 10:57:58,529 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 10:57:58,530 - Root WebApplicationContext: initialization completed in 1270 ms
+[INFO]2024-07-07 10:57:58,639 - HikariPool-1 - Starting...
+[WARN]2024-07-07 10:57:58,640 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 10:57:58,729 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 10:57:58,793 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 10:57:58,889 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 10:57:58,966 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 10:57:59,070 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 10:57:59,080 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 10:57:59,610 - 自定义Redis配置--
+[WARN]2024-07-07 10:57:59,659 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 10:57:59,774 - Adding welcome page template: index
+[INFO]2024-07-07 10:58:00,014 - LiveReload server is running on port 35729
+[INFO]2024-07-07 10:58:00,032 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 10:58:00,046 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 10:58:00,063 - Started SpringbootApplication in 3.203 seconds (JVM running for 3.821)
+[INFO]2024-07-07 10:58:01,271 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 10:58:01,271 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 10:58:01,272 - Completed initialization in 1 ms
+[WARN]2024-07-07 10:58:16,361 - Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000001.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1251)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1108)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:85)
+	at com.hwadee.springboot.config.CorsFilter.doFilter(CorsFilter.java:57)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000001.tmp
+	... 49 common frames omitted
+[ERROR]2024-07-07 10:58:16,363 - Error processing request
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000001.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000001.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 10:58:16,365 - Error reading request, ignored
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000001.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:420)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000001.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 10:58:16,365 - Error running socket processor
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000001.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+	at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1417)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1129)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1090)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000001.tmp
+	... 14 common frames omitted
+[WARN]2024-07-07 10:59:34,453 - Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1251)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1108)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:85)
+	at com.hwadee.springboot.config.CorsFilter.doFilter(CorsFilter.java:57)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000003.tmp
+	... 49 common frames omitted
+[ERROR]2024-07-07 10:59:34,454 - Error processing request
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000003.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 10:59:34,455 - Error reading request, ignored
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:420)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000003.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 10:59:34,456 - Error running socket processor
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+	at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1417)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1129)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1090)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.289897966877895670\work\Tomcat\localhost\ROOT\upload_52e2d42f_8e96_4d5b_87a1_aca60a8a00fe_00000003.tmp
+	... 14 common frames omitted
+[INFO]2024-07-07 11:13:03,582 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:13:03,584 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 11:13:03,590 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 11:13:10,782 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 31724 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 11:13:10,783 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 11:13:10,833 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 11:13:10,833 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 11:13:11,452 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:13:11,453 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 11:13:11,467 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 11:13:11,476 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:13:11,477 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 11:13:11,486 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 11:13:11,957 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 11:13:11,958 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 11:13:11,958 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 11:13:11,958 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 11:13:11,963 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 11:13:11,968 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:13:11,969 - Starting service [Tomcat]
+[INFO]2024-07-07 11:13:11,969 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 11:13:12,025 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 11:13:12,026 - Root WebApplicationContext: initialization completed in 1193 ms
+[INFO]2024-07-07 11:13:12,163 - HikariPool-1 - Starting...
+[WARN]2024-07-07 11:13:12,165 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 11:13:12,268 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 11:13:12,335 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 11:13:12,434 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 11:13:12,516 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 11:13:12,611 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 11:13:12,618 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:13:13,108 - 自定义Redis配置--
+[WARN]2024-07-07 11:13:13,164 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 11:13:13,294 - Adding welcome page template: index
+[INFO]2024-07-07 11:13:13,547 - LiveReload server is running on port 35729
+[INFO]2024-07-07 11:13:13,569 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:13:13,587 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 11:13:13,602 - Started SpringbootApplication in 3.185 seconds (JVM running for 3.819)
+[INFO]2024-07-07 11:14:47,540 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 11:14:47,540 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 11:14:47,542 - Completed initialization in 2 ms
+[INFO]2024-07-07 11:15:03,373 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:15:03,375 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 11:15:03,381 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 11:15:06,639 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 28956 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 11:15:06,640 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 11:15:06,717 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 11:15:06,717 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 11:15:07,426 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:15:07,426 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 11:15:07,444 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 11:15:07,460 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:15:07,461 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 11:15:07,470 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 11:15:07,976 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 11:15:07,977 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 11:15:07,977 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 11:15:07,977 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 11:15:07,983 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 11:15:07,988 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:15:07,989 - Starting service [Tomcat]
+[INFO]2024-07-07 11:15:07,989 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 11:15:08,046 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 11:15:08,047 - Root WebApplicationContext: initialization completed in 1329 ms
+[INFO]2024-07-07 11:15:08,169 - HikariPool-1 - Starting...
+[WARN]2024-07-07 11:15:08,170 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 11:15:08,260 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 11:15:08,334 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 11:15:08,442 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 11:15:08,525 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 11:15:08,633 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 11:15:08,641 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:15:09,154 - 自定义Redis配置--
+[WARN]2024-07-07 11:15:09,215 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 11:15:09,355 - Adding welcome page template: index
+[INFO]2024-07-07 11:15:09,641 - LiveReload server is running on port 35729
+[INFO]2024-07-07 11:15:09,660 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:15:09,679 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 11:15:09,697 - Started SpringbootApplication in 3.489 seconds (JVM running for 4.13)
+[INFO]2024-07-07 11:15:18,387 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 11:15:18,387 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 11:15:18,388 - Completed initialization in 1 ms
+[INFO]2024-07-07 11:15:50,995 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:15:50,997 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 11:15:51,002 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 11:20:04,003 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 45160 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 11:20:04,004 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 11:20:04,058 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 11:20:04,058 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 11:20:04,693 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:20:04,694 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 11:20:04,709 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 11:20:04,719 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:20:04,720 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 11:20:04,730 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 11:20:05,258 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 11:20:05,259 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 11:20:05,260 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 11:20:05,260 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 11:20:05,264 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 11:20:05,269 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:20:05,270 - Starting service [Tomcat]
+[INFO]2024-07-07 11:20:05,270 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 11:20:05,332 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 11:20:05,332 - Root WebApplicationContext: initialization completed in 1274 ms
+[INFO]2024-07-07 11:20:05,460 - HikariPool-1 - Starting...
+[WARN]2024-07-07 11:20:05,462 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 11:20:05,557 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 11:20:05,633 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 11:20:05,733 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 11:20:05,818 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 11:20:05,915 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 11:20:05,921 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:20:06,422 - 自定义Redis配置--
+[WARN]2024-07-07 11:20:06,482 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 11:20:06,637 - Adding welcome page template: index
+[INFO]2024-07-07 11:20:06,914 - LiveReload server is running on port 35729
+[INFO]2024-07-07 11:20:06,936 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:20:06,953 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 11:20:06,974 - Started SpringbootApplication in 3.311 seconds (JVM running for 4.061)
+[INFO]2024-07-07 11:21:32,076 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 11:21:32,076 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 11:21:32,078 - Completed initialization in 2 ms
+[INFO]2024-07-07 11:21:59,460 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:21:59,462 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 11:21:59,467 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 11:29:49,885 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 42648 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 11:29:49,886 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 11:29:49,944 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 11:29:49,944 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 11:29:50,573 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:29:50,573 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 11:29:50,588 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 11:29:50,600 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:29:50,601 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 11:29:50,611 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 11:29:51,091 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 11:29:51,092 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 11:29:51,092 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 11:29:51,092 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 11:29:51,097 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 11:29:51,103 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:29:51,104 - Starting service [Tomcat]
+[INFO]2024-07-07 11:29:51,105 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 11:29:51,164 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 11:29:51,164 - Root WebApplicationContext: initialization completed in 1220 ms
+[INFO]2024-07-07 11:29:51,295 - HikariPool-1 - Starting...
+[WARN]2024-07-07 11:29:51,298 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 11:29:51,399 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 11:29:51,469 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 11:29:51,567 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 11:29:51,646 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 11:29:51,760 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 11:29:51,768 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:29:52,274 - 自定义Redis配置--
+[WARN]2024-07-07 11:29:52,321 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 11:29:52,461 - Adding welcome page template: index
+[INFO]2024-07-07 11:29:52,744 - LiveReload server is running on port 35729
+[INFO]2024-07-07 11:29:52,764 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:29:52,782 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 11:29:52,797 - Started SpringbootApplication in 3.237 seconds (JVM running for 3.97)
+[INFO]2024-07-07 11:30:01,631 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 11:30:01,631 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 11:30:01,632 - Completed initialization in 1 ms
+[WARN]2024-07-07 11:30:01,807 - Resolved [org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class java.io.BufferedInputStream]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class java.io.BufferedInputStream and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.hwadee.springboot.entity.Result["result"]->org.springframework.core.io.UrlResource["inputStream"])]
+[INFO]2024-07-07 11:34:03,464 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:34:03,466 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 11:34:03,472 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 11:34:09,073 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 20556 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 11:34:09,074 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 11:34:09,120 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 11:34:09,120 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 11:34:09,795 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:34:09,795 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 11:34:09,811 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 11:34:09,822 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:34:09,823 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 11:34:09,833 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 11:34:10,330 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 11:34:10,332 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 11:34:10,332 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 11:34:10,333 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 11:34:10,338 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 11:34:10,342 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:34:10,343 - Starting service [Tomcat]
+[INFO]2024-07-07 11:34:10,343 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 11:34:10,411 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 11:34:10,411 - Root WebApplicationContext: initialization completed in 1290 ms
+[INFO]2024-07-07 11:34:10,526 - HikariPool-1 - Starting...
+[WARN]2024-07-07 11:34:10,528 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 11:34:10,622 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 11:34:10,686 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 11:34:10,801 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 11:34:10,884 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 11:34:10,970 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 11:34:10,980 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:34:11,492 - 自定义Redis配置--
+[WARN]2024-07-07 11:34:11,541 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 11:34:11,664 - Adding welcome page template: index
+[INFO]2024-07-07 11:34:11,936 - LiveReload server is running on port 35729
+[INFO]2024-07-07 11:34:11,956 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:34:11,971 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 11:34:11,987 - Started SpringbootApplication in 3.253 seconds (JVM running for 3.876)
+[INFO]2024-07-07 11:34:21,945 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 11:34:21,945 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 11:34:21,946 - Completed initialization in 1 ms
+[INFO]2024-07-07 11:49:46,014 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:49:46,017 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 11:49:46,023 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 11:49:51,755 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 47528 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 11:49:51,756 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 11:49:51,801 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 11:49:51,801 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 11:49:52,436 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:49:52,436 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 11:49:52,454 - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 11:49:52,465 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 11:49:52,466 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 11:49:52,475 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 11:49:52,981 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 11:49:52,982 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 11:49:52,982 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 11:49:52,983 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 11:49:52,987 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 11:49:52,992 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:49:52,993 - Starting service [Tomcat]
+[INFO]2024-07-07 11:49:52,993 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 11:49:53,070 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 11:49:53,071 - Root WebApplicationContext: initialization completed in 1269 ms
+[INFO]2024-07-07 11:49:53,217 - HikariPool-1 - Starting...
+[WARN]2024-07-07 11:49:53,219 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 11:49:53,328 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 11:49:53,402 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 11:49:53,505 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 11:49:53,596 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 11:49:53,688 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 11:49:53,696 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 11:49:54,258 - 自定义Redis配置--
+[WARN]2024-07-07 11:49:54,306 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 11:49:54,486 - Adding welcome page template: index
+[INFO]2024-07-07 11:49:54,869 - LiveReload server is running on port 35729
+[INFO]2024-07-07 11:49:54,887 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 11:49:54,903 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 11:49:54,919 - Started SpringbootApplication in 3.504 seconds (JVM running for 4.113)
+[INFO]2024-07-07 11:49:59,770 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 11:49:59,770 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 11:49:59,772 - Completed initialization in 2 ms
+[INFO]2024-07-07 12:11:17,167 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 12:11:17,170 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 12:11:17,175 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 14:35:02,058 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 27128 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 14:35:02,059 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 14:35:02,107 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 14:35:02,107 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 14:35:03,359 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 14:35:03,359 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 14:35:03,377 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 14:35:03,394 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 14:35:03,395 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 14:35:03,413 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 14:35:04,037 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 14:35:04,038 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 14:35:04,038 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 14:35:04,038 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 14:35:04,060 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 14:35:04,066 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 14:35:04,067 - Starting service [Tomcat]
+[INFO]2024-07-07 14:35:04,068 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 14:35:04,126 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 14:35:04,126 - Root WebApplicationContext: initialization completed in 2019 ms
+[INFO]2024-07-07 14:35:04,266 - HikariPool-1 - Starting...
+[WARN]2024-07-07 14:35:04,268 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 14:35:04,390 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 14:35:04,486 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 14:35:04,620 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 14:35:04,730 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 14:35:04,882 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 14:35:04,892 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 14:35:05,608 - 自定义Redis配置--
+[WARN]2024-07-07 14:35:05,661 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 14:35:05,799 - Adding welcome page template: index
+[INFO]2024-07-07 14:35:06,065 - LiveReload server is running on port 35729
+[INFO]2024-07-07 14:35:06,086 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 14:35:06,102 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 14:35:06,119 - Started SpringbootApplication in 4.48 seconds (JVM running for 10.784)
+[INFO]2024-07-07 14:36:34,575 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 14:36:34,575 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 14:36:34,577 - Completed initialization in 2 ms
+[WARN]2024-07-07 15:06:50,574 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (' ' (code 160)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (' ' (code 160)): was expecting double-quote to start field name<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 2, column: 3]]
+[INFO]2024-07-07 15:09:43,264 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 15:09:43,269 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 15:09:43,272 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 15:09:53,396 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 47748 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 15:09:53,397 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 15:09:53,448 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 15:09:53,448 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 15:09:54,726 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 15:09:54,726 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 15:09:54,741 - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 15:09:54,752 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 15:09:54,752 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 15:09:54,762 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 15:09:55,294 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 15:09:55,295 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 15:09:55,295 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 15:09:55,295 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 15:09:55,302 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 15:09:55,309 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 15:09:55,310 - Starting service [Tomcat]
+[INFO]2024-07-07 15:09:55,310 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 15:09:55,377 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 15:09:55,378 - Root WebApplicationContext: initialization completed in 1930 ms
+[INFO]2024-07-07 15:09:55,508 - HikariPool-1 - Starting...
+[WARN]2024-07-07 15:09:55,510 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 15:09:55,608 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 15:09:55,696 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 15:09:55,803 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 15:09:55,894 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 15:09:56,011 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 15:09:56,019 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 15:09:56,601 - 自定义Redis配置--
+[WARN]2024-07-07 15:09:56,650 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 15:09:56,763 - Adding welcome page template: index
+[INFO]2024-07-07 15:09:56,997 - LiveReload server is running on port 35729
+[INFO]2024-07-07 15:09:57,015 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 15:09:57,031 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 15:09:57,045 - Started SpringbootApplication in 4.011 seconds (JVM running for 4.843)
+[INFO]2024-07-07 15:09:58,989 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 15:09:58,989 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 15:09:58,990 - Completed initialization in 1 ms
+[WARN]2024-07-07 15:11:31,626 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'teamId' for method parameter type String is not present]
+[WARN]2024-07-07 15:11:48,771 - Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1251)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1108)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:85)
+	at com.hwadee.springboot.config.CorsFilter.doFilter(CorsFilter.java:57)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000003.tmp
+	... 49 common frames omitted
+[ERROR]2024-07-07 15:11:48,772 - Error processing request
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000003.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 15:11:48,773 - Error reading request, ignored
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:420)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000003.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 15:11:48,774 - Error running socket processor
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+	at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1417)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1129)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1090)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000003.tmp
+	... 14 common frames omitted
+[WARN]2024-07-07 15:21:05,051 - Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000005.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1251)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1108)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:85)
+	at com.hwadee.springboot.config.CorsFilter.doFilter(CorsFilter.java:57)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000005.tmp
+	... 49 common frames omitted
+[ERROR]2024-07-07 15:21:05,052 - Error processing request
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000005.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000005.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 15:21:05,053 - Error reading request, ignored
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000005.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:420)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000005.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 15:21:05,053 - Error running socket processor
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000005.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+	at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1417)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1129)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1090)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000005.tmp
+	... 14 common frames omitted
+[WARN]2024-07-07 15:25:01,211 - Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000007.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1251)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1108)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:85)
+	at com.hwadee.springboot.config.CorsFilter.doFilter(CorsFilter.java:57)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000007.tmp
+	... 49 common frames omitted
+[ERROR]2024-07-07 15:25:01,212 - Error processing request
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000007.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000007.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 15:25:01,213 - Error reading request, ignored
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000007.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:420)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000007.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 15:25:01,213 - Error running socket processor
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000007.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+	at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1417)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1129)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1090)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000007.tmp
+	... 14 common frames omitted
+[WARN]2024-07-07 15:25:17,543 - Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000009.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1251)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1108)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:85)
+	at com.hwadee.springboot.config.CorsFilter.doFilter(CorsFilter.java:57)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000009.tmp
+	... 49 common frames omitted
+[ERROR]2024-07-07 15:25:17,544 - Error processing request
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000009.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000009.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 15:25:17,545 - Error reading request, ignored
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000009.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:420)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000009.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 15:25:17,545 - Error running socket processor
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000009.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+	at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1417)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1129)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1090)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.15200974917671722966\work\Tomcat\localhost\ROOT\upload_e3b166cf_a086_4556_a799_7eb8db482aa9_00000009.tmp
+	... 14 common frames omitted
+[INFO]2024-07-07 15:36:34,283 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 15:36:34,286 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 15:36:34,292 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 15:36:40,257 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 20584 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 15:36:40,258 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 15:36:40,302 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 15:36:40,302 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 15:36:40,949 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 15:36:40,949 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 15:36:40,967 - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 15:36:40,979 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 15:36:40,980 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 15:36:40,989 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 15:36:41,483 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 15:36:41,483 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 15:36:41,484 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 15:36:41,484 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 15:36:41,488 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 15:36:41,493 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 15:36:41,494 - Starting service [Tomcat]
+[INFO]2024-07-07 15:36:41,494 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 15:36:41,547 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 15:36:41,547 - Root WebApplicationContext: initialization completed in 1244 ms
+[INFO]2024-07-07 15:36:41,655 - HikariPool-1 - Starting...
+[WARN]2024-07-07 15:36:41,657 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 15:36:41,752 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 15:36:41,819 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 15:36:41,920 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 15:36:41,992 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 15:36:42,083 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 15:36:42,091 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 15:36:42,536 - 自定义Redis配置--
+[WARN]2024-07-07 15:36:42,577 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 15:36:42,692 - Adding welcome page template: index
+[INFO]2024-07-07 15:36:42,906 - LiveReload server is running on port 35729
+[INFO]2024-07-07 15:36:42,924 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 15:36:42,938 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 15:36:42,953 - Started SpringbootApplication in 2.998 seconds (JVM running for 3.582)
+[INFO]2024-07-07 15:36:43,414 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 15:36:43,414 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 15:36:43,415 - Completed initialization in 1 ms
+[INFO]2024-07-07 15:41:19,508 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 15:41:19,511 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 15:41:19,516 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 15:41:25,332 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 20780 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 15:41:25,333 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 15:41:25,379 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 15:41:25,379 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 15:41:26,023 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 15:41:26,024 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 15:41:26,039 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 15:41:26,049 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 15:41:26,050 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 15:41:26,058 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 15:41:26,502 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 15:41:26,503 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 15:41:26,503 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 15:41:26,503 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 15:41:26,510 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 15:41:26,517 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 15:41:26,518 - Starting service [Tomcat]
+[INFO]2024-07-07 15:41:26,518 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 15:41:26,574 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 15:41:26,574 - Root WebApplicationContext: initialization completed in 1194 ms
+[INFO]2024-07-07 15:41:26,686 - HikariPool-1 - Starting...
+[WARN]2024-07-07 15:41:26,689 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 15:41:26,786 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 15:41:26,871 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 15:41:26,961 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 15:41:27,025 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 15:41:27,108 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 15:41:27,116 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 15:41:27,545 - 自定义Redis配置--
+[WARN]2024-07-07 15:41:27,590 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 15:41:27,727 - Adding welcome page template: index
+[INFO]2024-07-07 15:41:27,995 - LiveReload server is running on port 35729
+[INFO]2024-07-07 15:41:28,014 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 15:41:28,028 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 15:41:28,043 - Started SpringbootApplication in 3.032 seconds (JVM running for 3.663)
+[INFO]2024-07-07 15:41:49,140 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 15:41:49,140 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 15:41:49,141 - Completed initialization in 1 ms
+[WARN]2024-07-07 15:42:14,879 - Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.2604672542710957400\work\Tomcat\localhost\ROOT\upload_043012c0_deb5_4192_8575_2b2fc05bc7a2_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1251)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1108)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:85)
+	at com.hwadee.springboot.config.CorsFilter.doFilter(CorsFilter.java:57)
+	at javax.servlet.http.HttpFilter.doFilter(HttpFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.2604672542710957400\work\Tomcat\localhost\ROOT\upload_043012c0_deb5_4192_8575_2b2fc05bc7a2_00000003.tmp
+	... 49 common frames omitted
+[ERROR]2024-07-07 15:42:14,881 - Error processing request
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.2604672542710957400\work\Tomcat\localhost\ROOT\upload_043012c0_deb5_4192_8575_2b2fc05bc7a2_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.2604672542710957400\work\Tomcat\localhost\ROOT\upload_043012c0_deb5_4192_8575_2b2fc05bc7a2_00000003.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 15:42:14,883 - Error reading request, ignored
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.2604672542710957400\work\Tomcat\localhost\ROOT\upload_043012c0_deb5_4192_8575_2b2fc05bc7a2_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:420)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.2604672542710957400\work\Tomcat\localhost\ROOT\upload_043012c0_deb5_4192_8575_2b2fc05bc7a2_00000003.tmp
+	... 13 common frames omitted
+[ERROR]2024-07-07 15:42:14,883 - Error running socket processor
+java.io.UncheckedIOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.2604672542710957400\work\Tomcat\localhost\ROOT\upload_043012c0_deb5_4192_8575_2b2fc05bc7a2_00000003.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:431)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:474)
+	at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:494)
+	at org.apache.catalina.connector.CoyoteAdapter.checkRecycled(CoyoteAdapter.java:517)
+	at org.apache.coyote.http11.Http11Processor.recycle(Http11Processor.java:1417)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.release(AbstractProtocol.java:1129)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1090)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Cannot delete C:\Users\jiaoy\AppData\Local\Temp\tomcat.8080.2604672542710957400\work\Tomcat\localhost\ROOT\upload_043012c0_deb5_4192_8575_2b2fc05bc7a2_00000003.tmp
+	... 14 common frames omitted
+[INFO]2024-07-07 16:10:37,378 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 16:10:37,386 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 16:10:37,396 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 16:10:46,345 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 48720 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 16:10:46,346 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 16:10:46,398 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 16:10:46,399 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 16:10:47,414 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 16:10:47,415 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 16:10:47,430 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 16:10:47,440 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 16:10:47,441 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 16:10:47,452 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 16:10:48,028 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 16:10:48,029 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 16:10:48,029 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 16:10:48,029 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 16:10:48,036 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 16:10:48,043 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 16:10:48,044 - Starting service [Tomcat]
+[INFO]2024-07-07 16:10:48,044 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 16:10:48,118 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 16:10:48,118 - Root WebApplicationContext: initialization completed in 1719 ms
+[INFO]2024-07-07 16:10:48,238 - HikariPool-1 - Starting...
+[WARN]2024-07-07 16:10:48,240 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 16:10:48,342 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 16:10:48,425 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 16:10:48,522 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 16:10:48,602 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 16:10:48,709 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 16:10:48,716 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 16:10:49,243 - 自定义Redis配置--
+[WARN]2024-07-07 16:10:49,293 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 16:10:49,404 - Adding welcome page template: index
+[INFO]2024-07-07 16:10:49,624 - LiveReload server is running on port 35729
+[INFO]2024-07-07 16:10:49,645 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 16:10:49,662 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 16:10:49,677 - Started SpringbootApplication in 3.699 seconds (JVM running for 4.474)
+[INFO]2024-07-07 16:11:03,545 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 16:11:03,545 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 16:11:03,546 - Completed initialization in 1 ms
+[WARN]2024-07-07 16:52:12,138 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.hwadee.springboot.entity.Result com.hwadee.springboot.controller.MembershipController.updateMembership(com.hwadee.springboot.entity.Membership)]
+[WARN]2024-07-07 16:54:19,575 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.hwadee.springboot.entity.Result com.hwadee.springboot.controller.MembershipController.updateMembership(com.hwadee.springboot.entity.Membership)]
+[WARN]2024-07-07 16:56:52,776 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.hwadee.springboot.entity.Result com.hwadee.springboot.controller.MembershipController.updateMembership(com.hwadee.springboot.entity.Membership)]
+[WARN]2024-07-07 16:57:50,829 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.hwadee.springboot.entity.Result com.hwadee.springboot.controller.MembershipController.updateMembership(com.hwadee.springboot.entity.Membership)]
+[WARN]2024-07-07 16:59:15,437 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.hwadee.springboot.entity.Result com.hwadee.springboot.controller.MembershipController.updateMembership(com.hwadee.springboot.entity.Membership)]
+[INFO]2024-07-07 17:41:59,680 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 17:41:59,686 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 17:41:59,688 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 17:42:05,794 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 14872 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 17:42:05,794 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 17:42:05,830 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 17:42:05,830 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 17:42:06,757 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 17:42:06,758 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 17:42:06,774 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 17:42:06,784 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 17:42:06,785 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 17:42:06,794 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 17:42:07,308 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 17:42:07,310 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 17:42:07,310 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 17:42:07,310 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 17:42:07,316 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 17:42:07,325 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 17:42:07,326 - Starting service [Tomcat]
+[INFO]2024-07-07 17:42:07,326 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 17:42:07,393 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 17:42:07,393 - Root WebApplicationContext: initialization completed in 1563 ms
+[INFO]2024-07-07 17:42:07,508 - HikariPool-1 - Starting...
+[WARN]2024-07-07 17:42:07,510 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 17:42:07,606 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 17:42:07,690 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 17:42:07,791 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 17:42:07,870 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 17:42:07,978 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 17:42:07,985 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 17:42:08,526 - 自定义Redis配置--
+[WARN]2024-07-07 17:42:08,570 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 17:42:08,690 - Adding welcome page template: index
+[INFO]2024-07-07 17:42:08,913 - LiveReload server is running on port 35729
+[INFO]2024-07-07 17:42:08,933 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 17:42:08,951 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 17:42:08,965 - Started SpringbootApplication in 3.503 seconds (JVM running for 6.895)
+[INFO]2024-07-07 17:42:49,595 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 17:42:49,596 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 17:42:49,596 - Completed initialization in 0 ms
+[INFO]2024-07-07 17:48:26,588 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 17:48:26,591 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 17:48:26,597 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 17:48:31,939 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 3616 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 17:48:31,941 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 17:48:32,008 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 17:48:32,008 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 17:48:32,751 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 17:48:32,752 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 17:48:32,770 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 17:48:32,783 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 17:48:32,784 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 17:48:32,794 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 17:48:33,318 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 17:48:33,318 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 17:48:33,319 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 17:48:33,319 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 17:48:33,323 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 17:48:33,328 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 17:48:33,329 - Starting service [Tomcat]
+[INFO]2024-07-07 17:48:33,330 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 17:48:33,387 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 17:48:33,388 - Root WebApplicationContext: initialization completed in 1380 ms
+[INFO]2024-07-07 17:48:33,492 - HikariPool-1 - Starting...
+[WARN]2024-07-07 17:48:33,494 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 17:48:33,582 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 17:48:33,639 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 17:48:33,726 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 17:48:33,795 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 17:48:33,885 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 17:48:33,891 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 17:48:34,379 - 自定义Redis配置--
+[WARN]2024-07-07 17:48:34,423 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 17:48:34,541 - Adding welcome page template: index
+[INFO]2024-07-07 17:48:34,770 - LiveReload server is running on port 35729
+[INFO]2024-07-07 17:48:34,790 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 17:48:34,803 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 17:48:34,817 - Started SpringbootApplication in 3.314 seconds (JVM running for 3.881)
+[INFO]2024-07-07 17:49:01,408 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 17:49:01,408 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 17:49:01,409 - Completed initialization in 1 ms
+[INFO]2024-07-07 17:54:20,316 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 17:54:20,319 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 17:54:20,327 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 17:54:23,198 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 43164 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 17:54:23,199 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 17:54:23,240 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 17:54:23,241 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 17:54:23,893 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 17:54:23,894 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 17:54:23,911 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 17:54:23,921 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 17:54:23,922 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 17:54:23,931 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 17:54:24,372 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 17:54:24,373 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 17:54:24,373 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 17:54:24,373 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 17:54:24,378 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 17:54:24,384 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 17:54:24,385 - Starting service [Tomcat]
+[INFO]2024-07-07 17:54:24,385 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 17:54:24,440 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 17:54:24,440 - Root WebApplicationContext: initialization completed in 1199 ms
+[INFO]2024-07-07 17:54:24,546 - HikariPool-1 - Starting...
+[WARN]2024-07-07 17:54:24,547 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 17:54:24,644 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 17:54:24,699 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 17:54:24,793 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 17:54:24,862 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 17:54:24,944 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 17:54:24,953 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 17:54:25,372 - 自定义Redis配置--
+[WARN]2024-07-07 17:54:25,422 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 17:54:25,541 - Adding welcome page template: index
+[INFO]2024-07-07 17:54:25,804 - LiveReload server is running on port 35729
+[INFO]2024-07-07 17:54:25,822 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 17:54:25,837 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 17:54:25,851 - Started SpringbootApplication in 2.964 seconds (JVM running for 3.683)
+[INFO]2024-07-07 17:54:32,107 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 17:54:32,107 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 17:54:32,108 - Completed initialization in 1 ms
+[INFO]2024-07-07 17:57:58,037 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 17:57:58,039 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 17:57:58,044 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 17:58:03,260 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 51832 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 17:58:03,260 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 17:58:03,302 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 17:58:03,302 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 17:58:03,935 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 17:58:03,935 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 17:58:03,950 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 17:58:03,960 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 17:58:03,961 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 17:58:03,970 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 17:58:04,429 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 17:58:04,431 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 17:58:04,431 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 17:58:04,431 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 17:58:04,439 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 17:58:04,448 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 17:58:04,450 - Starting service [Tomcat]
+[INFO]2024-07-07 17:58:04,450 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 17:58:04,510 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 17:58:04,510 - Root WebApplicationContext: initialization completed in 1207 ms
+[INFO]2024-07-07 17:58:04,615 - HikariPool-1 - Starting...
+[WARN]2024-07-07 17:58:04,617 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 17:58:04,699 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 17:58:04,764 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 17:58:04,844 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 17:58:04,908 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 17:58:04,996 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 17:58:05,004 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 17:58:05,431 - 自定义Redis配置--
+[WARN]2024-07-07 17:58:05,474 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 17:58:05,584 - Adding welcome page template: index
+[INFO]2024-07-07 17:58:05,820 - LiveReload server is running on port 35729
+[INFO]2024-07-07 17:58:05,839 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 17:58:05,853 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 17:58:05,869 - Started SpringbootApplication in 2.936 seconds (JVM running for 3.5)
+[INFO]2024-07-07 17:58:17,278 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 17:58:17,279 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 17:58:17,280 - Completed initialization in 1 ms
+[INFO]2024-07-07 17:59:05,220 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 17:59:05,223 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 17:59:05,229 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 17:59:10,544 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 12632 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 17:59:10,545 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 17:59:10,588 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 17:59:10,588 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 17:59:11,199 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 17:59:11,200 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 17:59:11,216 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 17:59:11,227 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 17:59:11,228 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 17:59:11,238 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 17:59:11,663 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 17:59:11,664 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 17:59:11,664 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 17:59:11,664 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 17:59:11,669 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 17:59:11,673 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 17:59:11,674 - Starting service [Tomcat]
+[INFO]2024-07-07 17:59:11,674 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 17:59:11,733 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 17:59:11,733 - Root WebApplicationContext: initialization completed in 1144 ms
+[INFO]2024-07-07 17:59:11,864 - HikariPool-1 - Starting...
+[WARN]2024-07-07 17:59:11,866 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 17:59:11,960 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 17:59:12,038 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 17:59:12,139 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 17:59:12,219 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 17:59:12,310 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 17:59:12,316 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 17:59:12,787 - 自定义Redis配置--
+[WARN]2024-07-07 17:59:12,834 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 17:59:12,953 - Adding welcome page template: index
+[INFO]2024-07-07 17:59:13,182 - LiveReload server is running on port 35729
+[INFO]2024-07-07 17:59:13,199 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 17:59:13,217 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 17:59:13,232 - Started SpringbootApplication in 3.0 seconds (JVM running for 3.573)
+[INFO]2024-07-07 17:59:21,446 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 17:59:21,446 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 17:59:21,447 - Completed initialization in 1 ms
+[INFO]2024-07-07 18:20:11,592 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 18:20:11,594 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 18:20:11,600 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 18:20:14,545 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 26276 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 18:20:14,546 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 18:20:14,590 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 18:20:14,590 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 18:20:15,200 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 18:20:15,201 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 18:20:15,218 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 18:20:15,229 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 18:20:15,230 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 18:20:15,240 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 18:20:15,674 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 18:20:15,675 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 18:20:15,675 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 18:20:15,676 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 18:20:15,680 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 18:20:15,685 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 18:20:15,686 - Starting service [Tomcat]
+[INFO]2024-07-07 18:20:15,686 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 18:20:15,740 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 18:20:15,740 - Root WebApplicationContext: initialization completed in 1150 ms
+[INFO]2024-07-07 18:20:15,842 - HikariPool-1 - Starting...
+[WARN]2024-07-07 18:20:15,843 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 18:20:15,936 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 18:20:15,991 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 18:20:16,079 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 18:20:16,151 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 18:20:16,245 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 18:20:16,256 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 18:20:16,709 - 自定义Redis配置--
+[WARN]2024-07-07 18:20:16,755 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 18:20:16,870 - Adding welcome page template: index
+[INFO]2024-07-07 18:20:17,098 - LiveReload server is running on port 35729
+[INFO]2024-07-07 18:20:17,116 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 18:20:17,130 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 18:20:17,144 - Started SpringbootApplication in 2.938 seconds (JVM running for 3.661)
+[INFO]2024-07-07 18:20:24,642 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 18:20:24,642 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 18:20:24,643 - Completed initialization in 0 ms
+[INFO]2024-07-07 18:24:54,269 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 18:24:54,271 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-07 18:24:54,276 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-07 18:24:59,344 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 30596 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-07 18:24:59,345 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-07 18:24:59,390 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-07 18:24:59,390 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-07 18:24:59,984 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 18:24:59,984 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-07 18:25:00,000 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-07 18:25:00,010 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-07 18:25:00,011 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-07 18:25:00,022 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-07 18:25:00,473 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-07 18:25:00,474 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-07 18:25:00,474 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-07 18:25:00,474 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-07 18:25:00,479 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-07 18:25:00,485 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 18:25:00,486 - Starting service [Tomcat]
+[INFO]2024-07-07 18:25:00,486 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-07 18:25:00,541 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-07 18:25:00,541 - Root WebApplicationContext: initialization completed in 1150 ms
+[INFO]2024-07-07 18:25:00,696 - HikariPool-1 - Starting...
+[WARN]2024-07-07 18:25:00,699 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-07 18:25:00,805 - HikariPool-1 - Start completed.
+[INFO]2024-07-07 18:25:00,882 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-07 18:25:00,985 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-07 18:25:01,052 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-07 18:25:01,189 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-07 18:25:01,200 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-07 18:25:01,689 - 自定义Redis配置--
+[WARN]2024-07-07 18:25:01,736 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-07 18:25:01,871 - Adding welcome page template: index
+[INFO]2024-07-07 18:25:02,104 - LiveReload server is running on port 35729
+[INFO]2024-07-07 18:25:02,124 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-07 18:25:02,147 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-07 18:25:02,162 - Started SpringbootApplication in 3.137 seconds (JVM running for 3.73)
+[INFO]2024-07-07 18:25:08,484 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-07 18:25:08,484 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-07 18:25:08,486 - Completed initialization in 1 ms
+[WARN]2024-07-07 19:35:27,256 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m56s215ms113µs800ns).
+[WARN]2024-07-07 23:14:54,411 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m55s369ms922µs901ns).

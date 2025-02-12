@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hwadee.springboot.dao.VolunteerServiceRecordDao">
+
+    <resultMap id="BaseResultMap" type="com.hwadee.springboot.entity.VolunteerServiceRecord">
+        <result property="activityId" column="activity_id"/>
+        <result property="volunteerId" column="volunteer_id"/>
+        <result property="serviceHours" column="service_hours"/>
+        <result property="state" column="state"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.hwadee.springboot.entity.VolunteerServiceRecord">
+        INSERT INTO volunteer_service_record (activity_id, volunteer_id, service_hours, state)
+        VALUES (#{activityId}, #{volunteerId}, #{serviceHours}, #{state})
+    </insert>
+
+    <select id="findByVolunteerIdAndActivityId" resultMap="BaseResultMap">
+        SELECT * FROM volunteer_service_record
+        WHERE volunteer_id = #{volunteerId} AND activity_id = #{activityId}
+    </select>
+
+    <update id="updateState">
+        UPDATE volunteer_service_record
+        SET state = #{state}
+        WHERE volunteer_id = #{volunteerId} AND activity_id = #{activityId}
+    </update>
+
+<!--    <select id="queryAllRecordsByVolunteerId" resultMap="BaseResultMap">-->
+<!--        SELECT-->
+<!--            activity_id, volunteer_id, service_hours, state-->
+<!--        FROM-->
+<!--            volunteer_service_record-->
+<!--        WHERE-->
+<!--            volunteer_id = #{volunteerId}-->
+<!--    </select>-->
+    <select id="queryAllRecordsByVolunteerId" resultMap="BaseResultMap">
+        SELECT
+            activity_id,
+            volunteer_id,
+            COALESCE(service_hours, 0) AS service_hours,
+            state
+        FROM
+            volunteer_service_record
+        WHERE
+            volunteer_id = #{volunteerId}
+    </select>
+
+
+
+
+    <select id="queryTotalServiceHours" resultType="Integer">
+        SELECT
+            SUM(service_hours)
+        FROM
+            volunteer_service_record
+        WHERE
+            volunteer_id = #{volunteerId} AND state = 1
+    </select>
+
+    <select id="queryActivityCountByState" resultType="Integer">
+        SELECT
+            COUNT(*)
+        FROM
+            volunteer_service_record
+        WHERE
+            volunteer_id = #{volunteerId} AND state = #{state}
+    </select>
+
+    <select id="checkVolunteerActivityStatus" resultType="int">
+        SELECT
+            COUNT(*)
+        FROM
+            volunteer_service_record
+        WHERE
+            volunteer_id = #{volunteerId} AND activity_id = #{activityId}
+    </select>
+
+
+    <select id="getVolunteerIdByActivityId" resultMap="BaseResultMap">
+        SELECT * FROM volunteer_service_record WHERE activity_id = #{activityId}
+    </select>
+
+    <select id="getVolunteerIdNumByActivityId" resultType="java.util.Map">
+        SELECT
+            (SELECT COUNT(*) FROM volunteer_service_record WHERE activity_id = #{activityId} AND state = 1) AS num1,
+            (SELECT COUNT(*) FROM volunteer_service_record WHERE activity_id = #{activityId} AND state = 0) AS num0,
+            (SELECT COUNT(*) FROM volunteer_service_record WHERE activity_id = #{activityId} AND state = 2) AS num2
+    </select>
+
+
+<!--    <select id="getVolunteerIdByActivityId" resultMap="BaseResultMap">-->
+<!--        SELECT * FROM volunteer_service_record WHERE activity_id = #{activityId}-->
+<!--    </select>-->
+
+<!--    <select id="getVolunteerIdNumByActivityId" resultType="java.util.Map">-->
+<!--        SELECT-->
+<!--            (SELECT COUNT(*) FROM volunteer_service_record WHERE activity_id = #{activityId} AND state = 1) AS num1,-->
+<!--            (SELECT COUNT(*) FROM volunteer_service_record WHERE activity_id = #{activityId} AND state = 0) AS num0,-->
+<!--            (SELECT COUNT(*) FROM volunteer_service_record WHERE activity_id = #{activityId} AND state = 2) AS num2-->
+<!--    </select>-->
+
+    <update id="updateVolunteerServiceRecord" parameterType="com.hwadee.springboot.entity.VolunteerServiceRecord">
+        UPDATE volunteer_service_record
+        <set>
+            <if test="volunteerServiceRecord.serviceHours != null"> service_hours = #{volunteerServiceRecord.serviceHours}, </if>
+            <if test="volunteerServiceRecord.state != null"> state = #{volunteerServiceRecord.state} </if>
+        </set>
+        WHERE volunteer_id = #{volunteerServiceRecord.volunteerId} AND activity_id = #{volunteerServiceRecord.activityId}
+    </update>
+
+
+
+
+
+
+    <select id="getVolunteerServiceHoursPerActivity" resultType="Integer">
+        SELECT service_hours
+        FROM volunteer_service_record
+        WHERE volunteer_id = #{volunteerId} AND activity_id = #{activityId}
+    </select>
+
+    <delete id="deleteApplyForActivity">
+        DELETE FROM volunteer_service_record
+        WHERE volunteer_id = #{volunteerId} AND activity_id = #{activityId}
+    </delete>
+
+    <select id="getServiceRecord" resultMap="BaseResultMap">
+        SELECT *
+        FROM volunteer_service_record
+        WHERE volunteer_id = #{volunteerId} AND activity_id = #{activityId}
+    </select>
+
+
+
+
+
+    <select id="getTeamTotalTime" resultType="int">
+        SELECT SUM(vsr.service_hours)
+        FROM volunteer_service_record vsr
+                 JOIN volunteer_activity va ON vsr.activity_id = va.activity_id
+        WHERE va.team_id = #{teamId} AND vsr.state = 1
+    </select>
+
+
+    <select id="getVolunteerActivityByTeamId" resultMap="BaseResultMap">
+        SELECT
+            va.activity_id,
+            CASE WHEN vsr.volunteer_id IS NULL THEN NULL ELSE vsr.volunteer_id END AS volunteer_id,
+            CASE WHEN vsr.volunteer_id IS NULL THEN NULL ELSE vsr.service_hours END AS service_hours,
+            CASE WHEN vsr.volunteer_id IS NULL THEN NULL ELSE vsr.state END AS state
+        FROM volunteer_activity va
+                 LEFT JOIN volunteer_service_record vsr ON va.activity_id = vsr.activity_id AND vsr.state = 0
+        WHERE va.team_id = #{teamId} AND va.state = 1
+        ORDER BY va.activity_id
+    </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <resultMap id="ServiceHourStatistics" type="com.hwadee.springboot.entity.VolunteerServiceRecord">
+        <result property="activityId" column="activity_id"/>
+        <result property="volunteerId" column="volunteer_id"/>
+        <result property="serviceHours" column="service_hours"/>
+        <result property="state" column="state"/>
+        <result property="startDate" column="start_date"/>
+    </resultMap>
+
+    <select id="getServiceHourStatistics" resultMap="ServiceHourStatistics">
+        SELECT vsr.*, va.start_date
+        FROM volunteer_service_record vsr
+                 JOIN volunteer_activity va ON vsr.activity_id = va.activity_id
+        WHERE vsr.volunteer_id = #{volunteerId} AND vsr.state = 1 AND va.state=1
+        ORDER BY va.start_date
+    </select>
+
+
+
+
+
+
+
+
+
+    <!-- 获取志愿者的总志愿时长 -->
+    <select id="getTotalServiceHoursByVolunteerId" resultType="java.lang.Integer">
+        SELECT SUM(service_hours) FROM volunteer_service_record WHERE volunteer_id = #{volunteerId}
+    </select>
+
+    <!-- 获取所有志愿者的志愿时长，包括没有记录的志愿者（时长为0） -->
+    <select id="getAllVolunteerServiceHours" resultType="java.lang.Integer">
+        SELECT IFNULL(SUM(vsr.service_hours), 0)
+        FROM volunteer v
+                 LEFT JOIN volunteer_service_record vsr ON v.volunteer_id = vsr.volunteer_id
+        GROUP BY v.volunteer_id
+    </select>
+
+    <!-- 获取所有注册的志愿者人数 -->
+    <select id="getTotalVolunteerCount" resultType="int">
+        SELECT COUNT(*) FROM volunteer
+    </select>
+
+
+    <select id="checkVolunteerActivity" resultMap="BaseResultMap">
+        SELECT * FROM volunteer_service_record
+        WHERE volunteer_id = #{volunteerId}
+          AND activity_id = #{activityId}
+    </select>
+
+</mapper>

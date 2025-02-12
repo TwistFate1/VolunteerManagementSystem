@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hwadee.springboot.dao.VolunteerActivityDao">
+
+    <resultMap id="BaseResultMap" type="com.hwadee.springboot.entity.VolunteerActivity">
+        <result property="activityId" column="activity_id"/>
+        <result property="teamId" column="team_id"/>
+        <result property="name" column="name"/>
+        <result property="location" column="location"/>
+        <result property="content" column="content"/>
+        <result property="numberVolunteers" column="number_volunteers"/>
+        <result property="postDate" column="post_date"/>
+        <result property="startDate" column="start_date"/>
+        <result property="endDate" column="end_date"/>
+        <result property="state" column="state"/>
+        <result property="url" column="url"/>
+        <result property="sort" column="sort"/>
+    </resultMap>
+
+    <resultMap id="VolunteerServiceRecordResultMap" type="com.hwadee.springboot.entity.VolunteerServiceRecord">
+        <result property="activityId" column="activity_id"/>
+        <result property="volunteerId" column="volunteer_id"/>
+        <result property="serviceHours" column="service_hours"/>
+        <result property="state" column="state"/>
+    </resultMap>
+
+    <select id="queryAllByLimit" resultMap="BaseResultMap">
+        SELECT
+            activity_id, team_id, name, location, content, number_volunteers, post_date, start_date, end_date, state,url,sort
+        FROM
+            volunteer_activity
+        WHERE
+            name LIKE CONCAT('%', #{name}, '%') AND state=1 AND location LIKE CONCAT('%', #{location}, '%') AND sort LIKE CONCAT('%', #{sort}, '%')
+        LIMIT #{offset}, #{limit}
+
+    </select>
+
+    <select id="count" resultType="int">
+        SELECT
+            COUNT(*)
+        FROM
+            volunteer_activity
+        WHERE
+            name LIKE CONCAT('%', #{name}, '%')  AND state=1 AND location LIKE CONCAT('%', #{location}, '%') AND sort LIKE CONCAT('%', #{sort}, '%')
+    </select>
+
+    <select id="getActivityOfTeam" resultMap="BaseResultMap">
+        SELECT
+            activity_id, team_id, name, location, content, number_volunteers, post_date, start_date, end_date, state, url,sort
+        FROM
+            volunteer_activity
+        WHERE
+            team_id = #{teamId}
+    </select>
+
+
+
+
+    <insert id="insertActivity" parameterType="com.hwadee.springboot.entity.VolunteerActivity">
+        INSERT INTO volunteer_activity (team_id, name, location, content, number_volunteers, post_date, start_date, end_date, state, url,sort)
+        VALUES (#{volunteerActivity.teamId}, #{volunteerActivity.name}, #{volunteerActivity.location}, #{volunteerActivity.content}, #{volunteerActivity.numberVolunteers}, #{volunteerActivity.postDate}, #{volunteerActivity.startDate}, #{volunteerActivity.endDate}, 0, #{volunteerActivity.url},#{volunteerActivity.sort})
+    </insert>
+
+    <update id="updateActivity" parameterType="com.hwadee.springboot.entity.VolunteerActivity">
+        UPDATE volunteer_activity
+        <set>
+            <if test="volunteerActivity.teamId != null"> team_id = #{volunteerActivity.teamId}, </if>
+            <if test="volunteerActivity.name != null"> name = #{volunteerActivity.name}, </if>
+            <if test="volunteerActivity.location != null"> location = #{volunteerActivity.location}, </if>
+            <if test="volunteerActivity.content != null"> content = #{volunteerActivity.content}, </if>
+            <if test="volunteerActivity.numberVolunteers != null"> number_volunteers = #{volunteerActivity.numberVolunteers}, </if>
+            <if test="volunteerActivity.postDate != null"> post_date = #{volunteerActivity.postDate}, </if>
+            <if test="volunteerActivity.startDate != null"> start_date = #{volunteerActivity.startDate}, </if>
+            <if test="volunteerActivity.endDate != null"> end_date = #{volunteerActivity.endDate}, </if>
+            <if test="volunteerActivity.state != null or volunteerActivity.state ==null"> state = 0, </if>
+            <if test="volunteerActivity.url != null"> url = #{volunteerActivity.url} </if>
+            <if test="volunteerActivity.sort != null"> sort = #{volunteerActivity.sort} </if>
+        </set>
+        WHERE activity_id = #{volunteerActivity.activityId}
+    </update>
+
+    <delete id="deleteActivity" parameterType="long">
+        DELETE FROM volunteer_activity WHERE activity_id = #{activityId}
+    </delete>
+
+    <select id="getActivityByActivityId" resultMap="BaseResultMap">
+        SELECT * FROM volunteer_activity WHERE activity_id = #{activityId}
+    </select>
+
+
+    <select id="getActivityNumByTeamId" resultType="int">
+        SELECT COUNT(*)
+        FROM volunteer_activity
+        WHERE team_id = #{teamId}
+    </select>
+
+    <select id="getActivityNumber" resultType="int">
+        SELECT COUNT(*) FROM volunteer_activity
+    </select>
+
+
+
+    <select id="getAllActivity" resultMap="BaseResultMap">
+        SELECT * FROM volunteer_activity
+    </select>
+
+
+
+    <update id="updateActivityState" parameterType="com.hwadee.springboot.entity.VolunteerActivity">
+        UPDATE volunteer_activity
+        SET state = #{state}
+        WHERE activity_id = #{activityId}
+    </update>
+
+
+
+
+
+
+
+
+    <select id="getVolunteerHoursPerDayForYear" resultType="java.util.Map">
+        SELECT
+            DATE_FORMAT(va.start_date, '%Y-%m-%d') AS date,
+            CAST(IFNULL(SUM(vsr.service_hours), 0) AS UNSIGNED) AS time
+        FROM
+            volunteer_activity va
+                LEFT JOIN volunteer_service_record vsr ON va.activity_id = vsr.activity_id
+        WHERE
+            YEAR(va.start_date) = #{year}
+          AND vsr.volunteer_id = #{volunteerId}
+        GROUP BY
+            date
+        ORDER BY
+            date
+    </select>
+</mapper>

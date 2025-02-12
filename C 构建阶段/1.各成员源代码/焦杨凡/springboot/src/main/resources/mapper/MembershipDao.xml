@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hwadee.springboot.dao.MembershipDao">
+
+    <resultMap id="BaseResultMap" type="com.hwadee.springboot.entity.Membership">
+        <result property="volunteerId" column="volunteer_id"/>
+        <result property="teamId" column="team_id"/>
+        <result property="state" column="state"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.hwadee.springboot.entity.Membership">
+        INSERT INTO membership (volunteer_id, team_id, state)
+        VALUES (#{volunteerId}, #{teamId}, #{state})
+    </insert>
+
+    <select id="findByVolunteerIdAndTeamId" resultMap="BaseResultMap">
+        SELECT * FROM membership
+        WHERE volunteer_id = #{volunteerId} AND team_id = #{teamId}
+    </select>
+
+    <update id="updateState">
+        UPDATE membership
+        SET state = #{state}
+        WHERE volunteer_id = #{volunteerId} AND team_id = #{teamId}
+    </update>
+
+
+
+    <select id="queryAllTeamsByVolunteerId" resultMap="BaseResultMap">
+        SELECT
+            volunteer_id, team_id, state
+        FROM
+            membership
+        WHERE
+            volunteer_id = #{volunteerId}
+    </select>
+
+    <select id="queryTeamCountByState" resultType="Integer">
+        SELECT
+            COUNT(*)
+        FROM
+            membership
+        WHERE
+            volunteer_id = #{volunteerId} AND state = #{state}
+    </select>
+
+    <select id="checkVolunteerTeamStatus" resultType="int">
+        SELECT
+            COUNT(*)
+        FROM
+            membership
+        WHERE
+            volunteer_id = #{volunteerId} AND team_id = #{teamId} AND state = 1
+    </select>
+
+    <select id="getVolunteerByTeamId" resultMap="BaseResultMap">
+        SELECT * FROM membership WHERE team_id = #{teamId}
+    </select>
+
+    <select id="getVolunteerNumByTeamId" resultType="java.util.Map">
+        SELECT
+                (SELECT COUNT(*) FROM membership WHERE team_id = #{teamId} AND state = 1) AS num1,
+                (SELECT COUNT(*) FROM membership WHERE team_id = #{teamId} AND state = 0) AS num0,
+                (SELECT COUNT(*) FROM membership WHERE team_id = #{teamId} AND state = 2) AS num2
+    </select>
+
+    <update id="updateMembership" parameterType="com.hwadee.springboot.entity.Membership">
+        UPDATE membership
+        SET state = #{membership.state}
+        WHERE volunteer_id = #{membership.volunteerId} AND team_id = #{membership.teamId}
+    </update>
+
+
+    <delete id="deleteApplyForTeam">
+        DELETE FROM membership
+        WHERE volunteer_id = #{volunteerId} AND team_id = #{teamId}
+    </delete>
+
+    <select id="getMembership" resultMap="BaseResultMap">
+        SELECT * FROM membership
+        WHERE volunteer_id = #{volunteerId} AND team_id = #{teamId}
+    </select>
+
+
+
+    <select id="checkVolunteerTeam" resultMap="BaseResultMap">
+        SELECT * FROM membership
+        WHERE volunteer_id = #{volunteerId}
+          AND team_id = #{teamId}
+    </select>
+</mapper>

@@ -1,0 +1,330 @@
+[INFO]2024-07-06 09:05:03,050 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 26244 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-06 09:05:03,050 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-06 09:05:03,105 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-06 09:05:03,105 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-06 09:05:04,571 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 09:05:04,571 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-06 09:05:04,591 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-06 09:05:04,609 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 09:05:04,610 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-06 09:05:04,627 - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-06 09:05:05,279 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-06 09:05:05,280 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-06 09:05:05,281 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-06 09:05:05,281 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-06 09:05:05,304 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-06 09:05:05,312 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 09:05:05,314 - Starting service [Tomcat]
+[INFO]2024-07-06 09:05:05,314 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-06 09:05:05,384 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-06 09:05:05,384 - Root WebApplicationContext: initialization completed in 2278 ms
+[INFO]2024-07-06 09:05:05,514 - HikariPool-1 - Starting...
+[WARN]2024-07-06 09:05:05,515 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-06 09:05:05,645 - HikariPool-1 - Start completed.
+[INFO]2024-07-06 09:05:05,737 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-06 09:05:05,872 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-06 09:05:05,974 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-06 09:05:06,104 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-06 09:05:06,115 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 09:05:06,829 - 自定义Redis配置--
+[WARN]2024-07-06 09:05:06,894 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-06 09:05:07,035 - Adding welcome page template: index
+[INFO]2024-07-06 09:05:07,306 - LiveReload server is running on port 35729
+[INFO]2024-07-06 09:05:07,329 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 09:05:07,352 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-06 09:05:07,373 - Started SpringbootApplication in 4.824 seconds (JVM running for 9.96)
+[INFO]2024-07-06 09:05:54,309 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-06 09:05:54,310 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-06 09:05:54,311 - Completed initialization in 1 ms
+[INFO]2024-07-06 09:34:46,669 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 09:34:46,673 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-06 09:34:46,675 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-06 09:34:53,605 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 49348 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-06 09:34:53,606 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-06 09:34:53,656 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-06 09:34:53,656 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-06 09:34:54,339 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 09:34:54,339 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-06 09:34:54,354 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-06 09:34:54,364 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 09:34:54,365 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-06 09:34:54,374 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-06 09:34:54,892 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-06 09:34:54,893 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-06 09:34:54,893 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-06 09:34:54,893 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-06 09:34:54,899 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-06 09:34:54,911 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 09:34:54,912 - Starting service [Tomcat]
+[INFO]2024-07-06 09:34:54,912 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-06 09:34:54,970 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-06 09:34:54,971 - Root WebApplicationContext: initialization completed in 1314 ms
+[INFO]2024-07-06 09:34:55,087 - HikariPool-1 - Starting...
+[WARN]2024-07-06 09:34:55,089 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-06 09:34:55,184 - HikariPool-1 - Start completed.
+[INFO]2024-07-06 09:34:55,291 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-06 09:34:55,401 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-06 09:34:55,509 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-06 09:34:55,628 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-06 09:34:55,638 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 09:34:56,179 - 自定义Redis配置--
+[WARN]2024-07-06 09:34:56,239 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-06 09:34:56,374 - Adding welcome page template: index
+[INFO]2024-07-06 09:34:56,684 - LiveReload server is running on port 35729
+[INFO]2024-07-06 09:34:56,711 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 09:34:56,733 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-06 09:34:56,758 - Started SpringbootApplication in 3.558 seconds (JVM running for 4.237)
+[INFO]2024-07-06 09:36:26,855 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-06 09:36:26,856 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-06 09:36:26,857 - Completed initialization in 1 ms
+[WARN]2024-07-06 11:17:23,187 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 2]]
+[INFO]2024-07-06 12:24:26,382 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 12:24:26,389 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-06 12:24:26,391 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-06 14:36:03,800 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 7320 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-06 14:36:03,801 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-06 14:36:03,846 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-06 14:36:03,846 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-06 14:36:05,199 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 14:36:05,200 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-06 14:36:05,218 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-06 14:36:05,234 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 14:36:05,235 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-06 14:36:05,248 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-06 14:36:06,232 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-06 14:36:06,234 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-06 14:36:06,234 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-06 14:36:06,234 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-06 14:36:06,261 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-06 14:36:06,270 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 14:36:06,272 - Starting service [Tomcat]
+[INFO]2024-07-06 14:36:06,272 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-06 14:36:06,363 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-06 14:36:06,364 - Root WebApplicationContext: initialization completed in 2518 ms
+[INFO]2024-07-06 14:36:06,510 - HikariPool-1 - Starting...
+[WARN]2024-07-06 14:36:06,512 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-06 14:36:06,630 - HikariPool-1 - Start completed.
+[INFO]2024-07-06 14:36:06,723 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-06 14:36:06,847 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-06 14:36:06,942 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-06 14:36:07,056 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-06 14:36:07,065 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 14:36:07,706 - 自定义Redis配置--
+[WARN]2024-07-06 14:36:07,761 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-06 14:36:07,887 - Adding welcome page template: index
+[INFO]2024-07-06 14:36:08,155 - LiveReload server is running on port 35729
+[INFO]2024-07-06 14:36:08,174 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 14:36:08,191 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-06 14:36:08,209 - Started SpringbootApplication in 4.729 seconds (JVM running for 8.098)
+[INFO]2024-07-06 14:36:12,132 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-06 14:36:12,132 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-06 14:36:12,133 - Completed initialization in 1 ms
+[INFO]2024-07-06 15:22:21,392 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 15:22:21,396 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-06 15:22:21,400 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-06 15:22:27,069 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 52288 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-06 15:22:27,070 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-06 15:22:27,115 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-06 15:22:27,115 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-06 15:22:27,762 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 15:22:27,762 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-06 15:22:27,780 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-06 15:22:27,792 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 15:22:27,793 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-06 15:22:27,804 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-06 15:22:28,354 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-06 15:22:28,356 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-06 15:22:28,356 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-06 15:22:28,356 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-06 15:22:28,363 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-06 15:22:28,369 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 15:22:28,370 - Starting service [Tomcat]
+[INFO]2024-07-06 15:22:28,370 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-06 15:22:28,502 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-06 15:22:28,502 - Root WebApplicationContext: initialization completed in 1386 ms
+[INFO]2024-07-06 15:22:28,631 - HikariPool-1 - Starting...
+[WARN]2024-07-06 15:22:28,633 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-06 15:22:28,735 - HikariPool-1 - Start completed.
+[INFO]2024-07-06 15:22:28,838 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-06 15:22:28,947 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-06 15:22:29,042 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-06 15:22:29,176 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-06 15:22:29,187 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 15:22:29,737 - 自定义Redis配置--
+[WARN]2024-07-06 15:22:29,785 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-06 15:22:29,914 - Adding welcome page template: index
+[INFO]2024-07-06 15:22:30,145 - LiveReload server is running on port 35729
+[INFO]2024-07-06 15:22:30,168 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 15:22:30,185 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-06 15:22:30,200 - Started SpringbootApplication in 3.449 seconds (JVM running for 4.044)
+[INFO]2024-07-06 15:22:34,821 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-06 15:22:34,821 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-06 15:22:34,823 - Completed initialization in 2 ms
+[INFO]2024-07-06 15:39:12,620 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 15:39:12,622 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-06 15:39:12,627 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-06 15:39:17,978 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 41008 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-06 15:39:17,978 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-06 15:39:18,017 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-06 15:39:18,017 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-06 15:39:18,860 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 15:39:18,860 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-06 15:39:18,885 - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-06 15:39:18,901 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 15:39:18,902 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-06 15:39:18,915 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-06 15:39:19,422 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-06 15:39:19,423 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-06 15:39:19,423 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-06 15:39:19,423 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-06 15:39:19,428 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-06 15:39:19,435 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 15:39:19,438 - Starting service [Tomcat]
+[INFO]2024-07-06 15:39:19,439 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-06 15:39:19,506 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-06 15:39:19,506 - Root WebApplicationContext: initialization completed in 1489 ms
+[INFO]2024-07-06 15:39:19,626 - HikariPool-1 - Starting...
+[WARN]2024-07-06 15:39:19,628 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-06 15:39:19,709 - HikariPool-1 - Start completed.
+[INFO]2024-07-06 15:39:19,777 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-06 15:39:19,867 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-06 15:39:19,934 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-06 15:39:20,035 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-06 15:39:20,043 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 15:39:20,481 - 自定义Redis配置--
+[WARN]2024-07-06 15:39:20,524 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-06 15:39:20,657 - Adding welcome page template: index
+[INFO]2024-07-06 15:39:20,912 - LiveReload server is running on port 35729
+[INFO]2024-07-06 15:39:20,929 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 15:39:20,944 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-06 15:39:20,961 - Started SpringbootApplication in 3.293 seconds (JVM running for 3.914)
+[INFO]2024-07-06 15:39:25,595 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-06 15:39:25,595 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-06 15:39:25,596 - Completed initialization in 1 ms
+[INFO]2024-07-06 15:40:40,861 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 15:40:40,864 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-06 15:40:40,870 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-06 15:40:44,269 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 12744 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-06 15:40:44,270 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-06 15:40:44,312 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-06 15:40:44,312 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-06 15:40:44,935 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 15:40:44,936 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-06 15:40:44,951 - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-06 15:40:44,962 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 15:40:44,962 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-06 15:40:44,972 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-06 15:40:45,391 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-06 15:40:45,392 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-06 15:40:45,392 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-06 15:40:45,392 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-06 15:40:45,397 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-06 15:40:45,401 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 15:40:45,402 - Starting service [Tomcat]
+[INFO]2024-07-06 15:40:45,402 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-06 15:40:45,456 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-06 15:40:45,457 - Root WebApplicationContext: initialization completed in 1145 ms
+[INFO]2024-07-06 15:40:45,560 - HikariPool-1 - Starting...
+[WARN]2024-07-06 15:40:45,561 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-06 15:40:45,643 - HikariPool-1 - Start completed.
+[INFO]2024-07-06 15:40:45,708 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-06 15:40:45,789 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-06 15:40:45,853 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-06 15:40:45,939 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-06 15:40:45,946 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 15:40:46,367 - 自定义Redis配置--
+[WARN]2024-07-06 15:40:46,408 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-06 15:40:46,517 - Adding welcome page template: index
+[INFO]2024-07-06 15:40:46,746 - LiveReload server is running on port 35729
+[INFO]2024-07-06 15:40:46,764 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 15:40:46,778 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-06 15:40:46,793 - Started SpringbootApplication in 2.877 seconds (JVM running for 3.513)
+[INFO]2024-07-06 15:40:47,764 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-06 15:40:47,764 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-06 15:40:47,765 - Completed initialization in 1 ms
+[INFO]2024-07-06 16:33:28,200 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 16:33:28,205 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-06 16:33:28,207 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-06 16:33:34,236 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 17356 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-06 16:33:34,238 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-06 16:33:34,282 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-06 16:33:34,282 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-06 16:33:35,028 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 16:33:35,028 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-06 16:33:35,044 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-06 16:33:35,054 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 16:33:35,055 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-06 16:33:35,065 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-06 16:33:35,580 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-06 16:33:35,581 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-06 16:33:35,581 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-06 16:33:35,581 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-06 16:33:35,587 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-06 16:33:35,594 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 16:33:35,595 - Starting service [Tomcat]
+[INFO]2024-07-06 16:33:35,595 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-06 16:33:35,660 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-06 16:33:35,660 - Root WebApplicationContext: initialization completed in 1377 ms
+[INFO]2024-07-06 16:33:35,782 - HikariPool-1 - Starting...
+[WARN]2024-07-06 16:33:35,784 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-06 16:33:35,887 - HikariPool-1 - Start completed.
+[INFO]2024-07-06 16:33:35,988 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-06 16:33:36,097 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-06 16:33:36,195 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-06 16:33:36,335 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-06 16:33:36,343 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 16:33:36,818 - 自定义Redis配置--
+[WARN]2024-07-06 16:33:36,861 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-06 16:33:36,975 - Adding welcome page template: index
+[INFO]2024-07-06 16:33:37,194 - LiveReload server is running on port 35729
+[INFO]2024-07-06 16:33:37,213 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 16:33:37,230 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-06 16:33:37,247 - Started SpringbootApplication in 3.335 seconds (JVM running for 3.948)
+[INFO]2024-07-06 16:34:05,833 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-06 16:34:05,833 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-06 16:34:05,834 - Completed initialization in 1 ms
+[WARN]2024-07-06 18:11:53,542 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m15s290ms299µs500ns).
+[INFO]2024-07-06 19:31:43,104 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 19:31:43,112 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-06 19:31:43,116 - HikariPool-1 - Shutdown completed.
+[INFO]2024-07-06 19:31:48,783 - Starting SpringbootApplication using Java 20.0.1 on LAPTOP-L2BN52PD with PID 46348 (E:\shixi\springboot\target\classes started by jiaoy in E:\shixi\springboot)
+[INFO]2024-07-06 19:31:48,784 - No active profile set, falling back to 1 default profile: "default"
+[INFO]2024-07-06 19:31:48,820 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO]2024-07-06 19:31:48,820 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO]2024-07-06 19:31:49,887 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 19:31:49,887 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO]2024-07-06 19:31:49,906 - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+[INFO]2024-07-06 19:31:49,920 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO]2024-07-06 19:31:49,920 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO]2024-07-06 19:31:49,930 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[INFO]2024-07-06 19:31:50,525 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2024-07-06 19:31:50,526 - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+[INFO]2024-07-06 19:31:50,526 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[INFO]2024-07-06 19:31:50,526 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO]2024-07-06 19:31:50,531 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+[INFO]2024-07-06 19:31:50,537 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 19:31:50,538 - Starting service [Tomcat]
+[INFO]2024-07-06 19:31:50,538 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+[INFO]2024-07-06 19:31:50,597 - Initializing Spring embedded WebApplicationContext
+[INFO]2024-07-06 19:31:50,598 - Root WebApplicationContext: initialization completed in 1778 ms
+[INFO]2024-07-06 19:31:50,710 - HikariPool-1 - Starting...
+[WARN]2024-07-06 19:31:50,712 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2024-07-06 19:31:50,800 - HikariPool-1 - Start completed.
+[INFO]2024-07-06 19:31:50,882 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO]2024-07-06 19:31:50,984 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO]2024-07-06 19:31:51,060 - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[INFO]2024-07-06 19:31:51,172 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO]2024-07-06 19:31:51,179 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 19:31:51,699 - 自定义Redis配置--
+[WARN]2024-07-06 19:31:51,740 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO]2024-07-06 19:31:51,869 - Adding welcome page template: index
+[INFO]2024-07-06 19:31:52,086 - LiveReload server is running on port 35729
+[INFO]2024-07-06 19:31:52,104 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2024-07-06 19:31:52,124 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2024-07-06 19:31:52,138 - Started SpringbootApplication in 3.697 seconds (JVM running for 7.719)
+[INFO]2024-07-06 19:32:21,334 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2024-07-06 19:32:21,334 - Initializing Servlet 'dispatcherServlet'
+[INFO]2024-07-06 19:32:21,335 - Completed initialization in 1 ms
+[INFO]2024-07-06 21:07:11,080 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO]2024-07-06 21:07:11,091 - HikariPool-1 - Shutdown initiated...
+[INFO]2024-07-06 21:07:11,095 - HikariPool-1 - Shutdown completed.

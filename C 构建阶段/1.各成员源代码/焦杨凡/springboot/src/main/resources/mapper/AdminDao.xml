@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hwadee.springboot.dao.AdminDao">
+
+    <resultMap id="BaseResultMap" type="com.hwadee.springboot.entity.Admin">
+        <result property="adminId" column="admin_id"/>
+        <result property="password" column="password"/>
+        <result property="status" column="status"/>
+        <result property="avatar" column="avatar"/>
+    </resultMap>
+
+    <select id="login" resultMap="BaseResultMap">
+        SELECT * FROM admin WHERE admin_id = #{adminId} AND password = #{password}
+    </select>
+
+    <insert id="insert" parameterType="com.hwadee.springboot.entity.Admin">
+        INSERT INTO admin (admin_id, password, status,avatar)
+        VALUES (#{adminId}, #{password}, #{status}, #{avatar})
+    </insert>
+
+    <select id="findByAdminId" resultMap="BaseResultMap">
+        SELECT * FROM admin WHERE admin_id = #{adminId}
+    </select>
+
+
+
+    <update id="updateAdminInfo" parameterType="com.hwadee.springboot.entity.Admin">
+        UPDATE admin
+        <set>
+            <if test="admin.password != null"> password = #{admin.password}, </if>
+            <if test="admin.status != null"> status = #{admin.status}, </if>
+            <if test="admin.avatar != null"> avatar = #{admin.avatar} </if>
+        </set>
+        WHERE admin_id = #{admin.adminId}
+    </update>
+
+
+    <select id="getAllAdmin" resultMap="BaseResultMap">
+        SELECT * FROM admin
+    </select>
+
+</mapper>

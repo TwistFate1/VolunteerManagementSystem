@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hwadee.springboot.dao.VolunteerTeamDao">
+
+    <resultMap id="BaseResultMap" type="com.hwadee.springboot.entity.VolunteerTeam">
+        <result property="teamId" column="team_id"/>
+        <result property="password" column="password"/>
+        <result property="name" column="name"/>
+        <result property="leader" column="leader"/>
+        <result property="contact" column="contact"/>
+        <result property="introduction" column="introduction"/>
+        <result property="url" column="url"/>
+        <result property="avatar" column="avatar"/>
+        <result property="max" column="max"/>
+        <result property="memberCount" column="member_count"/>
+<!--        <collection property="members" ofType="string">-->
+<!--            <result column="member_name"/>-->
+
+<!--        </collection>-->
+    <result property="memberNames" column="member_names"/>
+    </resultMap>
+
+    <resultMap id="VolunteerWithMembersResultMap" type="com.hwadee.springboot.entity.VolunteerTeam">
+        <id property="teamId" column="team_id" />
+        <result property="password" column="password" />
+        <result property="name" column="name" />
+        <result property="leader" column="leader" />
+        <result property="contact" column="contact" />
+        <result property="introduction" column="introduction"/>
+        <result property="url" column="url"/>
+        <result property="avatar" column="avatar"/>
+        <result property="max" column="max"/>
+        <result property="memberCount" column="member_count" />
+        <collection property="members" ofType="string">
+            <result column="volunteer_name" />
+        </collection>
+    </resultMap>
+
+    <resultMap id="TeamBaseResultMap" type="com.hwadee.springboot.entity.VolunteerTeam">
+        <result property="teamId" column="team_id"/>
+        <result property="password" column="password"/>
+        <result property="name" column="name"/>
+        <result property="leader" column="leader"/>
+        <result property="contact" column="contact"/>
+        <result property="introduction" column="introduction"/>
+        <result property="url" column="url"/>
+        <result property="avatar" column="avatar"/>
+        <result property="max" column="max"/>
+    </resultMap>
+
+<!--    <select id="queryAllByLimit" resultMap="BaseResultMap">-->
+<!--        SELECT-->
+<!--            vt.team_id, vt.password, vt.name, vt.leader, vt.contact, vt.introduction,vt.url,vt.avatar,vt.max,-->
+<!--            (SELECT COUNT(*) FROM membership m WHERE m.team_id = vt.team_id AND m.state = 1) AS member_count,-->
+<!--            v.name AS member_name-->
+<!--        FROM-->
+<!--            volunteer_team vt-->
+<!--                LEFT JOIN-->
+<!--            membership m ON vt.team_id = m.team_id AND m.state = 1-->
+<!--                LEFT JOIN-->
+<!--            volunteer v ON m.volunteer_id = v.volunteer_id-->
+<!--        WHERE-->
+<!--            vt.name LIKE CONCAT('%', #{name}, '%')-->
+<!--        LIMIT ${offset}, ${limit}-->
+<!--    </select>-->
+    <select id="queryAllByLimit" resultMap="BaseResultMap">
+        SELECT
+            vt.team_id,
+            vt.password,
+            vt.name,
+            vt.leader,
+            vt.contact,
+            vt.introduction,
+            vt.url,
+            vt.avatar,
+            vt.max,
+            COUNT(m.team_id) AS member_count,
+            GROUP_CONCAT(v.name SEPARATOR ', ') AS member_names
+        FROM
+            volunteer_team vt
+                LEFT JOIN
+            membership m ON vt.team_id = m.team_id AND m.state = 1
+                LEFT JOIN
+            volunteer v ON m.volunteer_id = v.volunteer_id
+        WHERE
+            vt.name LIKE CONCAT('%', #{name}, '%')
+        GROUP BY
+            vt.team_id, vt.password, vt.name, vt.leader, vt.contact, vt.introduction, vt.url, vt.avatar, vt.max
+        LIMIT #{offset}, #{limit}
+    </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <select id="count" resultType="int">
+        SELECT
+            COUNT(*)
+        FROM
+            volunteer_team vt
+        WHERE
+            vt.name LIKE CONCAT('%', #{name}, '%')
+    </select>
+
+    <select id="queryById" resultMap="VolunteerWithMembersResultMap">
+        SELECT
+            vt.team_id, vt.password, vt.name, vt.leader, vt.contact,vt.introduction,vt.url,vt.avatar,vt.max,
+            (SELECT COUNT(*) FROM membership m WHERE m.team_id = vt.team_id AND m.state = 1) AS member_count,
+            v.name AS volunteer_name
+        FROM
+            volunteer_team vt
+                LEFT JOIN
+            membership m ON vt.team_id = m.team_id AND m.state = 1
+                LEFT JOIN
+            volunteer v ON m.volunteer_id = v.volunteer_id
+        WHERE
+            vt.team_id = #{teamId}
+    </select>
+
+    <!-- 登录 -->
+    <select id="login" resultMap="VolunteerWithMembersResultMap">
+        SELECT
+            vt.team_id, vt.password, vt.name, vt.leader, vt.contact, vt.introduction,vt.url,vt.avatar,vt.max,
+            (SELECT COUNT(*) FROM membership m WHERE m.team_id = vt.team_id AND m.state = 1) AS member_count,
+            v.name AS volunteer_name
+        FROM
+            volunteer_team vt
+                LEFT JOIN
+            membership m ON vt.team_id = m.team_id AND m.state = 1
+                LEFT JOIN
+            volunteer v ON m.volunteer_id = v.volunteer_id
+        WHERE
+            vt.team_id = #{teamId} AND vt.password = #{password}
+    </select>
+
+    <insert id="insert" parameterType="com.hwadee.springboot.entity.VolunteerTeam">
+        INSERT INTO volunteer_team (team_id, password, name, leader, contact, introduction, url,avatar,max)
+        VALUES (#{teamId}, #{password}, #{name}, #{leader}, #{contact}, #{introduction}, #{url},#{avatar},#{max})
+    </insert>
+
+    <select id="findByTeamId" resultMap="TeamBaseResultMap">
+        SELECT * FROM volunteer_team WHERE team_id = #{teamId}
+    </select>
+
+    <update id="updateTeamInfo" parameterType="com.hwadee.springboot.entity.VolunteerTeam">
+        UPDATE volunteer_team
+        <set>
+            <if test="volunteerTeam.password != null"> password = #{volunteerTeam.password}, </if>
+            <if test="volunteerTeam.name != null"> name = #{volunteerTeam.name}, </if>
+            <if test="volunteerTeam.leader != null"> leader = #{volunteerTeam.leader}, </if>
+            <if test="volunteerTeam.contact != null"> contact = #{volunteerTeam.contact}, </if>
+            <if test="volunteerTeam.introduction != null"> introduction = #{volunteerTeam.introduction}, </if>
+            <if test="volunteerTeam.url != null"> url = #{volunteerTeam.url}, </if>
+            <if test="volunteerTeam.avatar != null"> avatar = #{volunteerTeam.avatar}, </if>
+            <if test="volunteerTeam.max != null"> max = #{volunteerTeam.max} </if>
+        </set>
+        WHERE team_id = #{volunteerTeam.teamId}
+    </update>
+
+
+    <select id="getTeamNumber" resultType="int">
+        SELECT COUNT(*) FROM volunteer_team
+    </select>
+</mapper>
